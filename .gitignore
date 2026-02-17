@@ -1,1 +1,28 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# 依存パッケージ
+node_modules/
+.venv/
+__pycache__/
+
+# ビルド成果物
+dist/
+build/
+.next/
+out/
+
+# ログ
+*.log
+npm-debug.log*
+
+# IDE（Cursor/VSCode の設定は .cursor/ で管理するため除外）
+.vscode/
+*.swp
+*.swo
